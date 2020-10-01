@@ -1,4 +1,4 @@
-/home/qepqap/IdeaProjects/SpringBootRestService/src/main/java/models/PaymentRequest.java
-/home/qepqap/IdeaProjects/SpringBootRestService/src/main/java/controllers/PaymentController.java
-/home/qepqap/IdeaProjects/SpringBootRestService/src/main/java/main/Application.java
-/home/qepqap/IdeaProjects/SpringBootRestService/src/main/java/models/BaseResponse.java
+/home/qepqap/IdeaProjects/SpringBootRestService/src/main/java/app/Application.java
+/home/qepqap/IdeaProjects/SpringBootRestService/src/main/java/app/models/BaseResponse.java
+/home/qepqap/IdeaProjects/SpringBootRestService/src/main/java/app/controllers/PaymentController.java
+/home/qepqap/IdeaProjects/SpringBootRestService/src/main/java/app/models/PaymentRequest.java
