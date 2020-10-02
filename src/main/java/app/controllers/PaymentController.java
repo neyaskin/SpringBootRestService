@@ -1,13 +1,13 @@
-package controllers;
+package app.controllers;
 
-import models.*;
+import app.models.*;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/payment")
 public class PaymentController {
 
-    private final String sharedKey = "SHARED_KEY";
+    private final String sharedKey = "1";
 
     private static final String SUCCESS_STATUS = "success";
     private static final String ERROR_STATUS = "error";
@@ -28,7 +28,9 @@ public class PaymentController {
             int userId = request.getUserId();
             String itemId = request.getItemId();
             double discount = request.getDiscount();
-
+            // Process the request
+            // ....
+            // Return success response to the client.
             response = new BaseResponse(SUCCESS_STATUS, CODE_SUCCESS);
         } else {
             response = new BaseResponse(ERROR_STATUS, AUTH_FAILURE);
